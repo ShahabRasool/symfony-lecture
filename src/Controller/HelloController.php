@@ -12,4 +12,9 @@ class HelloController extends AbstractController
     {
         return $this->render('hello/welcome.html.twig', ['name'=> $name]);
     }
+    #[Route('/aboutus', name: "about-us")]
+    public function about()
+    {
+        return $this->render('hello/about.html.twig');
+    }
 }

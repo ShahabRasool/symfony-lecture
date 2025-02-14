@@ -1,4 +1,6 @@
  {% extends "base.html.twig" %}
  {% block body %}
  <h2> Welcome to the symfony of twig Mr {{name}} </h2>
+ <a href="/about">About page</a>
+ <a href="{{path('about-us')}}">About page-2</a>
  {% endblock %}
