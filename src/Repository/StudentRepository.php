@@ -6,7 +6,7 @@ class StudentRepository{
     private array $student = [
         "1"=> "shahab",
         "2" => "ali",
-        "3" => "reza",
+        "3" => "raza",
         
     ];
     public function getStudent(){
